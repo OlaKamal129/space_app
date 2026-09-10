@@ -1,0 +1,50 @@
+name: space_app
+description: "A new Flutter project."
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+     
+      
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/Frame1.png
+    - assets/mars.png
+    - assets/Frame.png
+    - assets/Rectangle.png
+    - assets/earth.png
+    - assets/venus.png
+    - assets/uranus.png
+    - assets/saturn.png
+    - assets/neptune.png
+    - assets/mercury.png
+    - assets/jupiter.png
+    - assets/sun.png
+
+  fonts:
+    - family: SpaceGrotesk
+      fonts:
+        - asset: fonts/SpaceGrotesk-Regular.ttf
+        - asset: fonts/SpaceGrotesk-Medium.ttf
+        - asset: fonts/SpaceGrotesk-Bold.ttf
+        - asset: fonts/SpaceGrotesk-Light.ttf
+        - asset: fonts/SpaceGrotesk-SemiBold.ttf
